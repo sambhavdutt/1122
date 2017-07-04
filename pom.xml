@@ -22,7 +22,7 @@
           <warSourceDirectory>WebContent</warSourceDirectory>
         </configuration>
       </plugin>
-	    <!--- Nexus maven plugin & configuration plugin -->
+	    <!-- Nexus maven plugin & configuration plugin -->
 	    <plugin>
    <groupId>org.sonatype.plugins</groupId>
    <artifactId>nexus-staging-maven-plugin</artifactId>
@@ -119,8 +119,8 @@
 	</dependency>
   	
   </dependencies>
-	<!---- nexus config listed below
-        --->
+	<!-- nexus config listed below
+        -->
 	<distributionManagement>
    <snapshotRepository>
       <id>maven-snapshots</id>
